@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  nav{
+    background-color: beige;
+    height: auto;
+    width: 100%;
+    padding: 23px;
+  }
+  .home:hover{
+    transition: 0.3s;
+    color: chocolate;
+  }
+  .about:hover{
+    transition: 0.3s;
+    color: chocolate;
+  }
+  .testimonials:hover{
+    transition: 0.3s;
+    color: chocolate;
+  }
+  .pricing:hover{
+    transition: 0.3s;
+    color: chocolate;
+  }
+  .contact:hover{
+    transition: 0.3s;
+    color: chocolate;
+  }
+  .socials:hover{
+    transition: 0.3s;
+    color: chocolate;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+  nav ul li>img{
+    height: 70px;
+    width: 100px;
+  }
+  section{
+    background-color: rgba(255, 255, 255, 0.312);
+    height: 300px;
+    width: 100%;
+  }
+  .temp{
+    background-color: aquamarine;
+    height: 30px;
+    width: 150px;
+    border:2px solid black;
+    margin-top: 200px;
+  }
+  .mid{
+    padding-top: 14px;
+    height: 100px;
+    width: auto;
+    background-color: beige;
+  }
+  .midkeandr{
+    margin-top: 15px;
+  
+  }
+  footer{
+    padding: 5px;
+    margin: 15px;
+  }
+  .person{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  .left{
+    padding: 23px;
+    margin: 15px;
+    /* float: left; */
+    display:inline-block;
+    background-color: cadetblue;
+    width: 18.5%;
+    height: 80px;
+  }
+  .left1{
+    padding: 23px;
+    margin: 15px;
+    /* float: left; */
+    display:inline-block;
+    background-color:chartreuse;
+    width: 18.5%;
+    height: 80px; 
+  }
+  .left2{
+    padding: 23px;
+    margin: 15px;
+    /* float: right; */
+    background-color:tomato;
+    /* position: absolute; */
+    /* right: 10.5%; */
+    display:inline-block;
+    width: 18.5%;
+    height: 80px;
+  }
+  .right{
+    padding: 23px;
+    margin: 15px;
+    /* float: right; */
+    display:inline-block;
+    background-color:turquoise;
+    width: 18.5%;
+    height: 80px;
+  }
